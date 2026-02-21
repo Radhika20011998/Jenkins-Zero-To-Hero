@@ -35,7 +35,7 @@ sudo apt update
 sudo apt install openjdk-17-jdk -y
 
 # Download latest Jenkins LTS .deb package
-wget https://pkg.jenkins.io/debian-stable/binary/jenkins_2.452.2_all.deb
+wget https://pkg.jenkins.io/debian-stable/latest/jenkins.war
 
 # Install it
 sudo apt install ./jenkins_2.452.2_all.deb -y
